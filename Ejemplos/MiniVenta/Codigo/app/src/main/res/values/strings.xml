@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MiniVenta</string>
+    <string name="Usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="bentrar">Entrar</string>
+    <string name="NombreEmpresa">Nombre del negocio</string>
+    <string name="ConfirmarPassword">Confirmar contraseña</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Grupos">Grupos</string>
+    <string name="Articulos">Articulos</string>
+    <string name="Clientes">Clientes</string>
+    <string name="Venta">Ventas</string>
+    <string name="Movimientos">Movimientos</string>
+    <string name="Articulo">Articulo</string>
+    <string name="CodigoBarras">Codigo de barras</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Precio">Precio</string>
+    <string name="Grupo">Grupo</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Hombre">Hombre</string>
+    <string name="Mujer">Mujer</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Email">Email</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Nacimiento">Fecha de nacimiento</string>
+    <string name="NombreGrupo">Nombre del grupo</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Motivo">Motivo</string>
+    <string name="Salir">Salir</string>
+    <string name="importe">Importe</string>
+    <string name="puntod">...</string>
+    <string name="Total">Total</string>
+    <string name="Cerrar_Venta">Cerrar Venta</string>
+    <string name="imprimir_ticket">Imprimir Ticket</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ServidorBT</string>
+    <string name="action_setings">Setings</string>
+    <string name="enviar">Enviar</string>
+    <string name="activarBluetooth">Activar</string>
+    <string name="desactivarBluetooth">Desactivar</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salir">Salir</string>
+    <string name="sinConexion">Sin Conexion</string>
+    <string name="conexionActual">Conexion Actual</string>
+    <string name="conectandoA">Conectando A</string>
+    <string name="enviandoMensaje">Enviando Mensaje</string>
+    <string name="msgErrorConexion">Error al enviar mensaje: no hay conexiones activas</string>
+</resources>

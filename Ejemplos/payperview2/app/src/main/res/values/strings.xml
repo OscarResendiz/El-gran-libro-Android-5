@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">payperview2</string>
+    <string name="descripcion">Permite a la aplicacion reproducir videos de la empresa payperview sin tu intervencion. Se trata de un servicio no gratuito, por lo que puede afectar al saldo de tu cuenta con la empresa</string>
+    <string name="etiqueta">Reproduccion de videos bajo demanda</string>
+</resources>

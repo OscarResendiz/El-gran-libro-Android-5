@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oscar.asteroides.MainActivity"
+    android:background="@drawable/fondo2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/degradado"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloAplicacion"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textSize="25sp"
+            style="@style/TextoAsteroides"
+            android:layout_marginBottom="20dp"
+             />
+        <Button
+            android:id="@+id/Button01"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Arrancar"
+            android:onClick="lanzarJuego"/>
+        <Button
+            android:id="@+id/Button02"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Configurar"
+            android:onClick="lanzarPreferencias"/>
+        <Button
+            android:id="@+id/Button03"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Acercade"
+            android:onClick="lanzarAcercaDe"/>
+        <Button
+            android:id="@+id/Button05"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Puntuaciones"
+        android:onClick="lanzarPuntuaciones"/>
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestures"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gestureStrokeType="multiple"
+            android:fadeOffset="800"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

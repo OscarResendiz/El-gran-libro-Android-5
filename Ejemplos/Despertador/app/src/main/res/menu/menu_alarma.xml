@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/guardar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/play"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="listasReproduccion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/stop"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="listasReproduccion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="listasReproduccion"
+        app:showAsAction="always" />
+
+</menu>

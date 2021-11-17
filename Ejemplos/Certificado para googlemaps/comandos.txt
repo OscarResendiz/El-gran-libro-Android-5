@@ -1,0 +1,3 @@
+C:\Users\oscar\.android
+keytool -v -list -keystore C:\Users\oscar\.android\debug.keystore
+SHA1: 38:9C:A4:0C:8D:06:92:58:7F:6E:5A:32:48:15:81:A1:75:1E:D9:0C

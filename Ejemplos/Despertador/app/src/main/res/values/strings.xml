@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Despertador</string>
+    <string name="title_activity_vista_alarma">Propiedades</string>
+    <string name="LBuscar">Buscar</string>
+    <string name="BBuscar">Buscar</string>
+    <string name="nombreAlarma">Nombre</string>
+    <string name="activarAlarma">Activa</string>
+    <string name="hora">Hora de inicio</string>
+    <string name="minutos">Minuto</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+    <string name="guardar">Guardar</string>
+    <string name="lista">Lista</string>
+    <string name="selecionarLista">Seleccione una Lista</string>
+</resources>

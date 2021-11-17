@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Accion_Guardar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Guardar"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/Accion_Cancelar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Cancelar"
+        android:orderInCategory="20"
+        app:showAsAction="ifRoom"/>
+
+</menu>

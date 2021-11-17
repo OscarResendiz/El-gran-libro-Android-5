@@ -1,0 +1,70 @@
+
+C:\Windows\system32>cd C:\Program Files (x86)\Java\jre1.8.0_181\bin
+
+C:\Program Files (x86)\Java\jre1.8.0_181\bin>keytool -v -list -keystore C:\Users
+\oscar\.android
+error de herramienta de claves: java.lang.Exception: El archivo de almacén de cl
+aves no existe: C:\Users\oscar\.android
+java.lang.Exception: El archivo de almacén de claves no existe: C:\Users\oscar\.
+android
+        at sun.security.tools.keytool.Main.doCommands(Unknown Source)
+        at sun.security.tools.keytool.Main.run(Unknown Source)
+        at sun.security.tools.keytool.Main.main(Unknown Source)
+
+C:\Program Files (x86)\Java\jre1.8.0_181\bin>keytool -v -list -keystore C:\Users
+\oscar\.android\debug.keystore
+Introduzca la contraseña del almacén de claves:
+
+*****************  WARNING WARNING WARNING  *****************
+* La integridad de la información almacenada en el almacén de claves  *
+* NO se ha comprobado.  Para comprobar dicha integridad, *
+* debe proporcionar la contraseña del almacén de claves.                  *
+*****************  WARNING WARNING WARNING  *****************
+
+Tipo de Almacén de Claves: jks
+Proveedor de Almacén de Claves: SUN
+
+Su almacén de claves contiene 1 entrada
+
+Nombre de Alias: androiddebugkey
+Fecha de Creación: 23/01/2017
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: CN=Android Debug, O=Android, C=US
+Emisor: CN=Android Debug, O=Android, C=US
+Número de serie: 14e8e3d9
+Válido desde: Mon Jan 23 18:07:44 CST 2017 hasta: Wed Jan 16 18:07:44 CST 2047
+Huellas digitales del certificado:
+         MD5: DC:0F:61:D0:59:49:68:90:3B:E8:E9:AE:AC:C1:65:DD
+         SHA1: 38:9C:A4:0C:8D:06:92:58:7F:6E:5A:32:48:15:81:A1:75:1E:D9:0C
+         SHA256: 92:52:19:66:78:1E:00:99:62:B3:96:48:89:4F:62:1E:79:17:28:C9:1D:
+E6:A6:B3:B8:9E:73:A1:8E:4E:5D:89
+Nombre del algoritmo de firma: SHA256withRSA
+Algoritmo de clave pública de asunto: Clave RSA de 2048 bits
+Versión: 3
+
+Extensiones:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 33 EB E1 83 5B 14 EA 54   C1 33 25 E2 70 36 55 66  3...[..T.3%.p6Uf
+0010: 8A B4 F9 63                                        ...c
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+
+Warning:
+El almacén de claves JKS utiliza un formato propietario. Se recomienda migrar a
+PKCS12, que es un formato estándar del sector que utiliza "keytool -importkeysto
+re -srckeystore C:\Users\oscar\.android\debug.keystore -destkeystore C:\Users\os
+car\.android\debug.keystore -deststoretype pkcs12".
+
+C:\Program Files (x86)\Java\jre1.8.0_181\bin>

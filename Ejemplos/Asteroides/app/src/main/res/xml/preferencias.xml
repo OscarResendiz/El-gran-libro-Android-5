@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal">
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Reporducir musica"
+        android:summary="se reproducce musica de fondo"/>
+    <ListPreference
+        android:key="Graficos"
+        android:title="Tipo de graficos"
+        android:summary="se escoge la representacion grafica"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:defaultValue="1"/>
+    <EditTextPreference
+        android:key="fragmentos"
+        android:title="Numero de fragmentos"
+        android:summary="En cuantos trozos se divide un asteroide"
+        android:defaultValue="3"/>
+    <CheckBoxPreference
+        android:key="sensores"
+        android:title="Utilizar Sensres"
+        android:summary="Se usan los sensores para mover la nave"/>
+    <PreferenceScreen android:title="Modo multijigador">
+        <CheckBoxPreference
+            android:key="Multijugador"
+            android:title="Activar modo multijugador"
+            android:summary="Muschos jugando"/>
+        <EditTextPreference
+            android:key="NJugadores"
+            android:title="Numero de Jugadores"
+            android:summary="Cuantos van a jugar"
+            android:defaultValue="3"/>
+        <ListPreference
+            android:key="Conexiones"
+            android:title="Tipo de Coneccion"
+            android:summary="Como se va a conectar"
+            android:entries="@array/tiposConexion"
+            android:entryValues="@array/tiposConexionValores"
+            android:defaultValue="1"/>
+
+    </PreferenceScreen>
+    <ListPreference
+        android:key="TipoPuntuaciones"
+        android:title="Almacenamiento de puntuaciones"
+        android:summary="se escoje el modo en que se van a almacenar las puntuaciones"
+        android:entries="@array/tiposPuntuaciones"
+        android:entryValues="@array/tiposPuntuacionesValores"
+        android:defaultValue="1"/>
+</PreferenceScreen>

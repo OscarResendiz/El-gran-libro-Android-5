@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/entrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:text="2.2">
+            <requestFocus/>
+        </EditText>
+        <Button
+            android:onClick="calcularOperacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular operacion" />
+        <Button
+            android:onClick="calcularServiceOperacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular Servicio operacion" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/salida"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
